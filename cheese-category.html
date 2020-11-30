@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Απο Πρόβατο...Γιαούρτι</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet"> 
+
+   <!-- lecture 29 Before -->
+    
+  </head>
+<body>
+
+<!--Start of Header-->
+  <header> 
+
+    <nav id="header-nav" class="navbar navbar-default">
+
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="pull-left visible-md visible-lg">
+              <div id="logo-img">
+                <img id="logoresize" src="./logo.JPG"  alt ="Logo image">
+              </div>
+
+            </a>
+
+            <div class="navbar-brand">
+              <a href="index.html"><h1>Απο Πρόβατο...Γιαούρτι</h1></a>
+              <p><img src="./flag-round-250.png" alt="flag"><span id="moto">Απλά Ελληνικά</span></p>
+
+            </div>
+
+
+            <!-- To κουμπί για το collapsable menu  που θα εμφανίζει τα στοιχεία που βρίσκονται
+            μέσα στο στοιχείο με id collapsable-nav-->
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" 
+            data-target="#collapsable-nav"  
+            aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <!-- To μενου που αναδιπλώνεται με τις αντιστοιχες επιλογές -->
+
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+
+              <li class="visible-xs">
+                <a href="index.html">
+                  <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home
+                </a>
+
+              </li>
+              <li class="active">
+                <a href="menu-categories.html">
+                  <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu
+                </a>
+
+              </li>
+
+              <li>
+                <a href="aboutUs.html">
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+                </a>
+
+              </li>
+
+              <li>
+                <a href="https://www.facebook.com/%CE%B1%CF%80%CE%BF-%CE%A0%CF%81%CE%BF%CE%B2%CE%B1%CF%84%CE%BF-%CE%93%CE%B9%CE%B1%CE%BF%CF%85%CF%81%CF%84%CE%B9-269257369863518/" target="_blank">
+                  <span class="glyphicon glyphicon-thumbs-up"></span><br class="hidden-xs"> Facebook
+                </a>
+
+              </li>
+
+              <li id="phone" class="hidden-xs">
+                <a href="tel:2112128702">
+                  <span>21 1212 8702</span>
+                  
+                </a>
+                <div>Διανομή κατ'οίκον χωρίς επιπλέον χρέωση.</div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+    </nav>
+
+  </header><!--End of Header-->
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:21099552235">
+    <span class="glyphicon glyphicon-earphone"></span>
+    21 1212 8702
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+
+  <!-- Main Content -->
+  <div id="main-content" class="container">
+
+    <h2 id="menu-categories-title" class="text-center"> Κατηγορίες Τυριών</h2>
+
+    <div class="text-center"></div>
+
+    <section class="row">
+
+
+      <!--1ο φαγητό-->
+      <div class="menu-item-tile col-md-6"> <!-- Χωρίζουμε την οθόνη σε  2 στήλες για να εμφανίζονται 2 πιάτα-->
+
+
+        <div class="row">
+
+          <div class="col-sm-5"> <!-- Χωρίζουμε την οθόνη σε 5 και 7 στήλες που θα περιέχουν τις πληροφορίες για τα πιάτα -->
+
+            <div class="menu-item-photo"> <!--Περιέχει την φωτογραφία του πιάτου-->
+
+              
+              <img src="./anthotiro.jpg" alt="Item" class="img-responsive" width="250" height="150"> <!--Η φωτογραφία του πιάτου-->
+
+            </div>
+            <div class="menu-item-price">5,90€ /κιλό <!--Η τιμή του πιάτου-->
+            
+            </div>
+
+          </div> <!-- Τέλος φωτογραφίας και των άνωθεν πληροφοριών-->
+
+          <div class="menu-item-description col-sm-7"> <!--Περιέχει τις πληροφορίες του πιάτου που θα καταλαμβάνουν 7 στ΄ήλες-->
+            <h3 class="menu-item-title">Ανθότυρο</h3> <!--Τίτλος του πιάτου-->
+            <p class="menu-item-details">Παράγεται από το λεγόμενο τυρόγαλα, δηλαδή τον ορό γάλακτος που συλλέγεται κατά την διαδικασία παραγωγής άλλων τυριών και ονομάζεται τυροκόμηση. Έπειτα προστίθεται (περίπου 10-20%) πρόβειο, κατσικίσιο ή αγελαδινό γάλα. Μοιάζει πολύ με την μυζήθρα, αφού ο τρόπος που παράγονται τα δυο αυτά τυριά δεν διαφέρει σχεδόν καθόλου. Το ανθότυρο όπως επίσης και το μανούρι, θεωρούνται ουσιαστικά είδη μυζήθρας.
+
+              Ως προς την εμφάνισή τους, είναι όμοια, αυτό όμως που διαχωρίζει το ανθότυρο από την μυζήθρα είναι η μεγαλύτερη περιεκτικότητά του σε λιπαρά (10% -20% σε σχέση με τη μυζήθρα που περιέχει 4% - 10%) πράγμα που το καθιστά πιο συμπαγές, καθώς επίσης και η πολύ χαμηλή περιεκτικότητά του σε αλάτι.</p>
+
+          </div>
+
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+        <!--Τέλος 1oυ φαγητού-->
+
+      <!--2o φαγητό-->
+      <div class="menu-item-tile col-md-6"> <!-- Χωρίζουμε την οθόνη σε  2 στήλες για να εμφανίζονται 2 πιάτα-->
+
+
+        <div class="row">
+
+          <div class="col-sm-5"> <!-- Χωρίζουμε την οθόνη σε 5 και 7 στήλες που θα περιέχουν τις πληροφορίες για τα πιάτα -->
+
+            <div class="menu-item-photo"> <!--Περιέχει την φωτογραφία του πιάτου-->
+
+              <div></div> <!--Ο αριθμός του πιάτου στο μενού-->
+              <img src="./feta.jpg" alt="Item" class="img-responsive" width="250" height="150"> <!--Η φωτογραφία του πιάτου-->
+
+            </div>
+            <div class="menu-item-price">8,90€ /κιλό <!--Η τιμή του πιάτου-->
+            
+            </div>
+
+
+          </div> <!-- Τέλος φωτογραφίας και των άνωθεν πληροφοριών-->
+
+          <div class="menu-item-description col-sm-7"> <!--Περιέχει τις πληροφορίες του πιάτου που θα καταλαμβάνουν 7 στ΄ήλες-->
+            <h3 class="menu-item-title">Φέτα</h3> <!--Τίτλος του πιάτου-->
+            <p class="menu-item-details">Η φέτα είναι είδος τυριού στην άλμη, τις ρίζες της οποίας τις βρίσκουμε χιλιάδες χρόνια πριν στην Αρχαία Ελλάδα.
+
+
+              Παρασκευάζεται αποκλειστικά από γάλα προβάτου ή αιγοπρόβειο, δηλαδή μείγμα με έως 30% γάλα γίδας .
+              Η γεύση της φέτας είναι αλμυρή και αποθηκεύεται σε υγρό άλμης ή ξινόγαλου για περίπου 3 μήνες.
+              Από τη στιγμή που απομακρυνθεί από την άλμη, η φέτα χάνει όλα τα υγρά της και γίνεται πιο συμπαγής.
+              Η φέτα έχει άσπρο χρώμα ενώ αποθηκεύεται συνήθως σε μεγάλα τετράγωνα κομμάτια.
+              Η ποικιλία αλλάζει ανάλογα και με την σκληρότητα του τυριού.
+              Έτσι λοιπόν μπορούμε να την βρούμε από σκληρή έως και πολύ μαλακή μορφή.
+             Αναλόγως διαφέρει και η γεύση. Το λίπος που περιέχεται κυμαίνεται από 30% έως 60%, ενώ ο μέσος όρος είναι γύρω στο 45%. </p>
+
+          </div>
+
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <!--Τέλος 2oυ φαγητού-->
+
+      <div class="clearfix visible-md-block visible-lg-block"></div>
+
+      <!--3o φαγητό-->
+      <div class="menu-item-tile col-md-6"> <!-- Χωρίζουμε την οθόνη σε  2 στήλες για να εμφανίζονται 2 πιάτα-->
+
+
+          <div class="row">
+
+            <div class="col-sm-5"> <!-- Χωρίζουμε την οθόνη σε 5 και 7 στήλες που θα περιέχουν τις πληροφορίες για τα πιάτα -->
+
+              <div class="menu-item-photo"> <!--Περιέχει την φωτογραφία του πιάτου-->
+
+                <div></div> <!--Ο αριθμός του πιάτου στο μενού-->
+                <img src="./katsikisio.jpg" alt="Item" class="img-responsive" width="250" height="150"> <!--Η φωτογραφία του πιάτου-->
+
+              </div>
+              <div class="menu-item-price">9,60€ /κιλό <!--Η τιμή του πιάτου-->
+            
+              </div>
+
+            </div> <!-- Τέλος φωτογραφίας και των άνωθεν πληροφοριών-->
+
+            <div class="menu-item-description col-sm-7"> <!--Περιέχει τις πληροφορίες του πιάτου που θα καταλαμβάνουν 7 στ΄ήλες-->
+              <h3 class="menu-item-title">Κατσικίσιο Τυρί</h3> <!--Τίτλος του πιάτου-->
+              <p class="menu-item-details">Κρεμώδες και ιδιαίτερο στη γεύση, το κατσικίσιο τυρί είναι ένα γαλακτοκομικό προϊόν που το απολαμβάνουν σχεδόν σε όλο τον κόσμο.
+                Υπάρχει σε αρκετές γεύσεις και υφές, από απαλό και κατάλληλο για ψωμί, μέχρι αλατισμένο και σκληρό.
+                Αν και φτιάχνεται χρησιμοποιώντας την ίδια διαδικασία πήξης και διαχωρισμού όπως το τυρί που φτιάχνεται από αγελαδινό γάλα, το κατσικίσιο διαφέρει σε θρεπτική περιεκτικότητα. Επιπλέον, μεταβολίζεται διαφορετικά από το αγελαδινό 
+                και αποτελεί υποαλλεργική εναλλακτική για όσους είναι αλλεργικοί στο αγελαδινό.</p>
+
+            </div>
+
+          </div>
+          <hr class="visible-xs">
+        </div>
+  <!--Τέλος 3oυ φαγητού-->
+
+  
+   <!--4o φαγητό-->
+   <div class="menu-item-tile col-md-6"> <!-- Χωρίζουμε την οθόνη σε  2 στήλες για να εμφανίζονται 2 πιάτα-->
+
+
+    <div class="row">
+
+      <div class="col-sm-5"> <!-- Χωρίζουμε την οθόνη σε 5 και 7 στήλες που θα περιέχουν τις πληροφορίες για τα πιάτα -->
+
+        <div class="menu-item-photo"> <!--Περιέχει την φωτογραφία του πιάτου-->
+
+          <div></div> <!--Ο αριθμός του πιάτου στο μενού-->
+          <img src="./graviera.jpg" alt="Item" class="img-responsive" width="250" height="150"> <!--Η φωτογραφία του πιάτου-->
+
+        </div>
+        <div class="menu-item-price">13.70€ / κιλό
+        </div>
+
+      </div> <!-- Τέλος φωτογραφίας και των άνωθεν πληροφοριών-->
+
+      <div class="menu-item-description col-sm-7"> <!--Περιέχει τις πληροφορίες του πιάτου που θα καταλαμβάνουν 7 στ΄ήλες-->
+        <h3 class="menu-item-title">Γραβιέρα</h3> <!--Τίτλος του πιάτου-->
+        <p class="menu-item-details">Η γραβιέρα είναι είδος ελληνικού σκληρού κίτρινου τυριού. Το όνομά του είναι παραφθορά του γκρυγιέρ ή γκρουγιέρ (gruyère), του ελβετικού τυριού που προέρχεται από την ομώνυμη πόλη, Γκρυγιέρ. Είναι και τα δύο τυριά με παρόμοια διαδικασία ωρίμανσης, ωστόσο έχουν διαφορετική γεύση και σύσταση καθώς η γραβιέρα παρασκευάζεται αποκλειστικά με πρόβειο ή αιγοπρόβειο γάλα ενώ το γκρυγιέρ παρασκευάζεται με αγελαδινό γάλα. 
+          Υπάρχουν διάφορα είδη γραβιέρας που παρασκευάζονται στην Ελλάδα, 
+          όπου είναι το δεύτερο πιο δημοφιλές τυρί μετά την φέτα. </p>
+
+      </div>
+
+    </div>
+    <hr class="visible-xs">
+  </div>
+<!--Τέλος 4oυ φαγητού-->
+<div class="clearfix visible-md-block visible-lg-block"></div>
+ <!--5o φαγητό-->
+ <div class="menu-item-tile col-md-6"> <!-- Χωρίζουμε την οθόνη σε  2 στήλες για να εμφανίζονται 2 πιάτα-->
+
+
+  
+<!--Τέλος 8oυ φαγητού-->
+    </section>
+
+  </div> 
+  <!-- End of Main Content -->
+
+  <!-- Start of Footer -->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+
+        <section id="hours" class="col-sm-4">
+          <span>Ώρες Λειτουργίας :</span><br/>
+          Δευτερα - Σαββατο: 09.30am - 20:30pm<br/>
+          Κυριακή: 17.00pm - 20.30pm<br/>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Διεύθυνση :</span><br>
+          Σουλίου 132,<br>
+          Αγιος Δημήτριος 173 42
+          <p>* Διαvομή κατ'οίκον χωρίς επιπλέον χρέωση.
+          </p>
+          <hr class="visible-xs">
+        </section>
+
+        <section id="testimonials" class="col-sm-4">
+
+         
+
+          <p>"Φρεσκο γιαουρτακι με όλα τα θρεπτικά συστατικά που οφειλει να μας προσφέρει ένα γιαούρτι ..!
+            Μεγαλη ποικιλια σε γλυκίσματα ,παράγωγα του γιαουρτιου  ελαφριά σε σύσταση κ γεύση για όλες τις ηλικίες..και πολλά παραδοσιακά,χειροποιητα  προϊόντα όπως τυρακια, μαρμελάδες κα.
+            Θα γνωρίσετε το Νίκο και τη Γεωργια  , ευχάριστοι ανθρωποι της διπλανής πόρτας που με το μεράκι τους δινουν ενα σύγχρονο προσωπο στις παραδόσεις μας..
+            Σίγουρα αξίζει να δοκιμασετε!"</p>
+
+        </section>
+
+      </div>
+        <div class="text-center">&copy; Copyright "Απο Πρόβατο... Γιαούρτι" 2020</div>
+    </div>
+  </footer>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

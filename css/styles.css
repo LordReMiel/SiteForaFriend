@@ -371,7 +371,8 @@ h3.menu-item-title {
 /****************** Small device only ******************/
 @media (max-width: 991px) and (min-width: 768px) {
 
-
+   
+   
     .jumbotron {
 
         background: url('../store_jumbotron_768.jpg') no-repeat;
@@ -397,6 +398,9 @@ h3.menu-item-title {
 }
 /****************** Extra Small device only ******************/
 @media (max-width: 767px) and (min-width: 480px) {
+
+
+   
 
     .navbar-brand {
 
@@ -461,9 +465,10 @@ h3.menu-item-title {
         text-transform: uppercase;
     }
 
-    #menu-tile, #special-tile  {
+    
+    #menu-tile{
 
-        width:360px;
+        width:100%;
         margin: 0 auto 15px;
     }
 
@@ -510,6 +515,8 @@ h3.menu-item-title {
     /****************** Super Extra Small device only ******************/
 
     @media (max-width: 460px) { 
+
+        
 
         .navbar-brand {
 
@@ -565,9 +572,9 @@ h3.menu-item-title {
 
             text-align: center;
         }
-        #menu-tile, #special-tile {
+        #menu-tile{
 
-            width:280px;
+            width:100%;
             margin: 0 auto 15px;
         }
 
