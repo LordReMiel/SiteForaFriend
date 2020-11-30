@@ -1,0 +1,194 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Απο Πρόβατο...Γιαούρτι</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet"> 
+
+   
+    
+  </head>
+<body>
+
+<!--Start of Header-->
+  <header> 
+
+    <nav id="header-nav" class="navbar navbar-default">
+
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="pull-left visible-md visible-lg">
+              <div id="logo-img">
+                <img id="logoresize" src="./logo.JPG"  alt ="Logo image">
+              </div>
+
+            </a>
+
+            <div class="navbar-brand">
+              <a href="index.html"><h1>Απο Πρόβατο...Γιαούρτι</h1></a>
+              <p><img src="./flag-round-250.png" alt="flag"><span id="moto">Απλά Ελληνικά</span></p>
+
+            </div>
+
+
+            <!-- To κουμπί για το collapsable menu  που θα εμφανίζει τα στοιχεία που βρίσκονται
+            μέσα στο στοιχείο με id collapsable-nav-->
+            <button id="navbarToggle"
+             class="navbar-toggle collapsed" type="button" data-toggle="collapse" 
+            data-target="#collapsable-nav"  
+            aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <!-- To μενου που αναδιπλώνεται με τις αντιστοιχες επιλογές -->
+
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+
+
+              <li class="visible-xs active">
+                <a href="index.html">
+                  <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home
+                </a>
+
+              </li>
+
+              <li>
+                <a href="menu-categories.html">
+                  <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu
+                </a>
+
+              </li>
+
+              <li>
+                <a href="aboutUs.html">
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+                </a>
+
+              </li>
+
+              <li>
+                <a href="https://www.facebook.com/%CE%B1%CF%80%CE%BF-%CE%A0%CF%81%CE%BF%CE%B2%CE%B1%CF%84%CE%BF-%CE%93%CE%B9%CE%B1%CE%BF%CF%85%CF%81%CF%84%CE%B9-269257369863518/" target="_blank">
+                  <span class="glyphicon glyphicon-thumbs-up"></span><br class="hidden-xs"> Facebook
+                </a>
+
+              </li>
+
+              <li id="phone" class="hidden-xs">
+                <a href="tel:21099552235">
+                  <span>21 1212 8702</span>
+                  
+                </a>
+                <div> Διανομή κατ'οίκον χωρίς επιπλέον χρέωση.</div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+    </nav>
+
+  </header><!--End of Header-->
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:21099552235">
+    <span class="glyphicon glyphicon-earphone"></span>
+    21 1212 8702
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* Διανομη κατ'οικον χωρις επιπλεον χρεωση.</div>
+
+  <div id="main-content" class="container">
+
+    <!-- Jumbotron Start  -->
+    <div class="jumbotron">
+
+      <img src="/store_jumbotron_768.jpg" alt="Picture of Restaurant" class="img-responsive visible-xs">
+    </div>
+
+    <!-- Jumbotron Ends  -->
+    <!-- Tiles -->
+    <div id="home-tiles" class="row">
+
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
+      </div>
+
+      <!-- Map Start -->
+      <div class="col-md-6 col-sm-12 col-xs-12"> 
+        <a href="https://goo.gl/maps/9ykYdfyexaPRYPrF7" target="_blank">
+
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12588.555360179536!2d23.7340046!3d37.9271868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbe969540bdf242f5!2zIs6Rz4DPjCDOoM-Bz4zOss6xz4TOvy4uzpPOuc6xzr_Pjc-Bz4TOuSIsIM6gzrHPgc6xzrTOv8-DzrnOsc66z4wgzrXPgc6zzrHPg8-Ezq7Pgc65zr8gzrPOsc67zrHOus-Ezr_Ous6_zrzOuc66z47OvQ!5e0!3m2!1sen!2sgr!4v1605701308477!5m2!1sen!2sgr"
+             width="100%" height="250" frameborder="0" style="border:0;" 
+            allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <span>Map</span>
+          </div>
+        </a>
+
+      </div><!-- Map End -->
+
+    </div><!-- Tiles End -->
+
+  </div> 
+  <!-- End of Main Content -->
+
+  <!-- Start of Footer -->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+
+        <section id="hours" class="col-sm-4">
+          <span>Ώρες Λειτουργίας :</span><br/>
+          Δευτερα - Σαββατο: 09.30am - 20:30pm<br/>
+          Κυριακή: 17.00pm - 20.30pm<br/>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Διεύθυνση :</span><br>
+          Σουλίου 132,<br>
+          Αγιος Δημήτριος 173 42
+          <p>* Διαvομή κατ'οίκον χωρίς επιπλέον χρέωση.
+          </p>
+          <hr class="visible-xs">
+        </section>
+
+        <section id="testimonials" class="col-sm-4">
+
+         
+
+          <p>"Φρεσκο γιαουρτακι με όλα τα θρεπτικά συστατικά που οφειλει να μας προσφέρει ένα γιαούρτι ..!
+            Μεγαλη ποικιλια σε γλυκίσματα ,παράγωγα του γιαουρτιου  ελαφριά σε σύσταση κ γεύση για όλες τις ηλικίες..και πολλά παραδοσιακά,χειροποιητα  προϊόντα όπως τυρακια, μαρμελάδες κα.
+            Θα γνωρίσετε το Νίκο και τη Γεωργια  , ευχάριστοι ανθρωποι της διπλανής πόρτας που με το μεράκι τους δινουν ενα σύγχρονο προσωπο στις παραδόσεις μας..
+            Σίγουρα αξίζει να δοκιμασετε!"</p>
+
+        </section>
+
+      </div>
+        <div class="text-center">&copy; Copyright "Απο Πρόβατο... Γιαούρτι" 2020</div>
+    </div>
+
+
+  </footer>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
