@@ -253,6 +253,17 @@ body {
     color:#fff
 }
 
+#menu-categories-title > a {
+
+    background-color: #337AB7;
+    color:#fff
+}
+
+#menu-categories-title > a:hover {
+
+    background-color: #fff;
+    color:#337AB7;
+}
 #menu-categories-title + div {
 
     margin-bottom: 50px;
@@ -397,6 +408,11 @@ h3.menu-item-title {
         
     }
 
+    #menu-categories-title > a {
+
+        margin-bottom: 10px;
+    }
+
 }
 /****************** Extra Small device only ******************/
 @media (max-width: 767px) and (min-width: 480px) {
@@ -510,6 +526,11 @@ h3.menu-item-title {
     }
 
     /**** End Single Category Page ****/
+
+    #menu-categories-title > a {
+
+        margin-bottom: 10px;
+    }
 }
 
     /****************** Super Extra Small device only ******************/
@@ -576,6 +597,11 @@ h3.menu-item-title {
 
             width:100%;
             margin: 0 auto 15px;
+        }
+
+        #menu-categories-title > a {
+
+            margin-bottom: 10px;
         }
 
 
