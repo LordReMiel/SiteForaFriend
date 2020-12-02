@@ -90,7 +90,7 @@ body {
 
     color: whitesmoke;
     text-align: right;
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -138,7 +138,7 @@ body {
 
 #menu-tile {
 
-    background: url('../menu-tile.jpg') no-repeat;
+    background: url('../images/menu-tile.jpg') no-repeat;
     background-position: center;
 }
 
@@ -300,12 +300,12 @@ body {
     max-width: 250px; /*Βάζουμε το μέγιστο πλάτος να είναι το ίδιο με το μέγιστο πλάτος της φωτογραφίας.*/
 }
 
-.menu-item-photo div {
+.menu-item-photo>div {
     position: absolute;
     bottom: 0;
     right: 0;
     text-align: center;
-    width: 80px;
+    width: 88px;
     background-color: #337AB7;
 }
 
@@ -334,7 +334,7 @@ h3.menu-item-title {
 
     .jumbotron {
 
-        background: url('../store_jumbotron_1200.jpg') no-repeat;
+        background: url('../images/store_jumbotron_1200.jpg') no-repeat;
         height: 675px;
         box-shadow: 0 0 50px #337AB7;
         border: 2px solid #337AB7;
@@ -342,7 +342,7 @@ h3.menu-item-title {
 
     #aboutUsjumb{
 
-        background: url('../aboutUs_1200.jpg') no-repeat;
+        background: url('../images/aboutUs_1200.jpg') no-repeat;
         height: 675px;
         box-shadow: 0 0 50px #337AB7;
         border: 2px solid #337AB7;
@@ -354,15 +354,17 @@ h3.menu-item-title {
 
     .jumbotron {
 
-        background: url('../store_jumbotron_992.jpg') no-repeat;
+        background: url('../images/store_jumbotron_992.jpg') no-repeat;
         height: 558px;
         box-shadow: 0 0 50px #337AB7;
         border: 2px solid #337AB7;
     }
 
+   
+
     #aboutUsjumb{
 
-        background: url('../aboutUs_992.jpg') no-repeat;
+        background: url('../images/aboutUs_992.jpg') no-repeat;
         height: 558px;
         box-shadow: 0 0 50px #337AB7;
         border: 2px solid #337AB7;
@@ -375,7 +377,7 @@ h3.menu-item-title {
    
     .jumbotron {
 
-        background: url('../store_jumbotron_768.jpg') no-repeat;
+        background: url('../images/store_jumbotron_768.jpg') no-repeat;
         height: 432px;
         box-shadow: 0 0 50px #337AB7;
         border: 2px solid #337AB7;
@@ -383,7 +385,7 @@ h3.menu-item-title {
 
     #aboutUsjumb{
 
-        background: url('../aboutUs_768.jpg') no-repeat;
+        background: url('../images/aboutUs_768.jpg') no-repeat;
         height: 432px;
         box-shadow: 0 0 50px #337AB7;
         border: 2px solid #337AB7;
@@ -399,8 +401,6 @@ h3.menu-item-title {
 /****************** Extra Small device only ******************/
 @media (max-width: 767px) and (min-width: 480px) {
 
-
-   
 
     .navbar-brand {
 
@@ -514,7 +514,7 @@ h3.menu-item-title {
 
     /****************** Super Extra Small device only ******************/
 
-    @media (max-width: 460px) { 
+    @media (max-width: 479px) { 
 
         
 
