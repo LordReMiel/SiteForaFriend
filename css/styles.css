@@ -256,7 +256,8 @@ body {
 #menu-categories-title > a {
 
     background-color: #337AB7;
-    color:#fff
+    color:#fff;
+    height: 66px;
 }
 
 #menu-categories-title > a:hover {
